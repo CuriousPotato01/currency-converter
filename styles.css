@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #202124;
+  color: #DCDCDC;
+}
+
+div {
+  border: none rgba(255, 0, 0, 0.411) 0.1px;
+}
+
+.container {
+  width: 652px;
+  height: 320px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+
+.left-div {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.right-div {
+  flex: 50%;
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-top-div {
+  height: 85px;
+}
+
+.left-mid-div {
+  height: 19px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  font-size: 12px;
+}
+
+.left-bottom-div {
+  height: 105px;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-top-div {
+  height: 110px;
+  margin: 0 16px;
+}
+
+.right-bottom-div {
+  height: 184px;
+}
+
+.output {
+  font-size: 36px;
+  color: #E8EAED;
+  margin-top: 10px;
+}
+
+.input {
+  font-size: 16px;
+  color: #9AA0A6;
+}
+
+.input-type {
+  flex: 1;
+  padding: 1px;
+  border: 1px solid #5f6368;
+  caret-color: #8ab4f8;
+  display: flex;
+  border-radius: 6px;
+}
+
+.output-type {
+  flex: 1;
+  padding: 1px;
+  border: 1px solid #5f6368;
+  caret-color: #8ab4f8;
+  display: flex;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.bottom-input {
+  background-color: #202124;
+  margin: 0;
+  text-align: left;
+  line-height: 24px;
+  padding: 1px 6px 1px 12px;
+  font-size: 16px;
+  border: 0;
+  border-right: 0.2px solid rgba(255, 255, 255, 0.269);
+  height: 40px;
+  width: 100px;
+  color: white;
+  outline: none;
+
+}
+
+.top-input {
+  background-color: #202124;
+  margin: 0;
+  text-align: left;
+  line-height: 24px;
+  padding: 1px 6px 1px 12px;
+  font-size: 16px;
+  border: 0;
+  height: 40px;
+  width: 100px;
+  color: white;
+  border-right: 0.2px solid rgba(255, 255, 255, 0.292);
+  outline: none;
+}
+
+.top-select {
+  line-height: 40px;
+  width: 100%;
+  height: 100%;
+  background-color: #202124;
+  outline: none;
+  color: white;
+  border: none;
+  text-align: right;
+}
+
+.top-select-div {
+  line-height: 40px;
+  width: 100%;
+}
+
+
+.bottom-select {
+  line-height: 40px;
+  width: 100%;
+  height: 100%;
+  background-color: #202124;
+  outline: none;
+  color: white;
+  border: none;
+  text-align: right;
+}
+
+.bottom-select-div {
+  line-height: 40px;
+  width: 100%;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
