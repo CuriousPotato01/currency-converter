@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+  <meta charset="utf-8">
   <title>Currency Converter</title>
   <link rel="stylesheet" href="styles.css">
-
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -13,12 +13,13 @@
 
     <div class="left-div">
       <div class="left-top-div">
-        <div class="input">1 ABD Doları eşittir</div>
-        <div class="output">32,05 Türk Lirası</div>
+        <div class="input">0 ABD Doları eşittir</div>
+        <div class="output">0 ABD Doları</div>
       </div>
 
       <div class="left-mid-div">
-        25 Mar 22:07 UTC · Sorumluluk reddi beyanı
+        25 Mar 22:07 UTC · <span class="red">
+          <a href="https://www.google.com/intl/tr-TR/googlefinance/disclaimer/">Sorumluluk reddi beyanı</a></span>
       </div>
 
       <div class="left-bottom-div">
@@ -30,10 +31,10 @@
           </div>
 
           <div class="top-select-div">
-            <select class="top-select">
-              <option value="option1">ABD Doları</option>
-              <option value="option2">Euro</option>
-              <option value="option3">Türk Lirası</option>
+            <select class="top-select" title="Select Currency">
+              <option value="USD">ABD Doları</option>
+              <option value="EUR">Euro</option>
+              <option value="TRY">Türk Lirası</option>
             </select>
           </div>
 
@@ -47,10 +48,10 @@
           </div>
 
           <div class="bottom-select-div">
-            <select class="bottom-select">
-              <option value="option1">ABD Doları</option>
-              <option value="option2">Euro</option>
-              <option value="option3">Türk Lirası</option>
+            <select class="bottom-select" title="Select Currency">
+              <option value="USD">ABD Doları</option>
+              <option value="EUR">Euro</option>
+              <option value="TRY">Türk Lirası</option>
             </select>
           </div>
         </div>
